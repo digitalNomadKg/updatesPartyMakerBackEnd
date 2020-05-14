@@ -27,7 +27,7 @@ public class Party {
 	}
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
 	public long getId() {
 		return id;
 	}

@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.guides.springboot2.springboot2jpacrudexample.exception.ResourceNotFoundException;
 import net.guides.springboot2.springboot2jpacrudexample.repository.PartyRepository;
 
-@CrossOrigin(origins = "http://localhost:3306")
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/v1")
 public class PartyController {
